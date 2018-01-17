@@ -5,3 +5,4 @@ WORKDIR /myapp
 ADD . /myapp
 
 RUN gem install bundler --pre
+RUN bundle install
